@@ -1,7 +1,7 @@
 <template>
   <a-card>
     <a-row>
-      <a-col :span="24"> 所有可以进入的路由:{{ allRoutes }} </a-col>
+      <a-col :span="24"> 所有可以进入的路由:{{ allRoutes }}</a-col>
     </a-row>
     <a-row>
       <a-col :span="3">
@@ -17,9 +17,9 @@
   </a-card>
 </template>
 <script setup lang="ts">
-import { useAclStore } from 'velon';
+import {useAclStore, useRouterPush} from 'velon';
 
-const router = useRouter();
+const {to} = useRouterPush()
 const aclStore = useAclStore();
 
 const addDashboard = () => {
@@ -31,7 +31,7 @@ const removeDashboard = () => {
 };
 
 const goToDashboard = () => {
-  router.push({ path: '/dashboard' });
+  to('/dashboard');
 };
 
 const allRoutes = computed(() => {
