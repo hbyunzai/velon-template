@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "composite": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "lib": [
+      "dom",
+      "esnext",
+      "DOM",
+      "DOM.Iterable",
+      "ES6"
+    ],
+    "allowSyntheticDefaultImports": true
+  },
+  "include": [
+    "vite.config.ts",
+    "node_modules/velon/typings/**/*.d.ts"
+  ]
+}
