@@ -14,7 +14,13 @@
       "DOM"
     ],
     "skipLibCheck": true,
-    "noEmit": true
+    "noEmit": true,
+    "types": [
+      "vite/client",
+      "node",
+      "unplugin-icons/types/vue",
+      "unplugin-vue-macros/macros-global"
+    ]
   },
   "include": [
     "src/**/*.ts",

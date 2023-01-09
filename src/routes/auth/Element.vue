@@ -4,8 +4,8 @@
       <a-col :span="24"> 所有元素权限点数:{{ allAbilities }} </a-col>
     </a-row>
 
-    <img v-if="has('/auth/element:img')" width="30" src="assets/images/avatar.jpg" />
-    <img v-if="has('img')" width="30" src="assets/images/avatar.jpg" />
+    <img v-if="has('/auth/element:img')" width="30" src="/src/assets/images/avatar.jpg" />
+    <img v-if="has('img')" width="30" src="/src/assets/images/avatar.jpg" />
 
     <a-row>
       <a-col :span="3">

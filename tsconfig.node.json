@@ -15,6 +15,7 @@
   },
   "include": [
     "vite.config.ts",
-    "node_modules/velon/typings/**/*.d.ts"
+    "node_modules/velon/typings/**/*.d.ts",
+    "build/**/*.ts"
   ]
 }

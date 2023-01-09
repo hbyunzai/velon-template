@@ -24,8 +24,6 @@ export class BuildFactory {
 
   private static setupProd(): void {
     this.buildOption = {
-      target: 'es2015',
-      cssTarget: 'chrome80',
       outDir: PathUtil.getDistPath(),
       chunkSizeWarningLimit: 2000
     };
