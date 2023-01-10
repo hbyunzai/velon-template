@@ -23,6 +23,7 @@ const bootstrap = async () => {
             },
             cache: { mode: 'none' },
             auth: {
+                store_key:"_yz_token",
                 token_send_key: 'Authorization',
                 token_send_template: 'Bearer ${token}'
             },
