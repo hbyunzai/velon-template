@@ -6,6 +6,7 @@ export default defineConfig(configEnv => {
     return {
         base: env.VITE_PUBLIC_PATH,
         server: {
+            base: env.VITE_PUBLIC_PATH,
             https: env.VITE_USE_HTTPS,
             host: true,
             port: env.VITE_SERVER_PORT,
