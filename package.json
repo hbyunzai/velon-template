@@ -2,6 +2,7 @@
   "name": "velon-template",
   "private": true,
   "version": "0.0.0-alpha.6",
+  "license": "apache-2.0",
   "type": "module",
   "scripts": {
     "dev": "cross-env VITE_COMMAND=serve VITE_BUILD_ENV=dev vite",
