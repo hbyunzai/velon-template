@@ -1,7 +1,7 @@
 {
   "name": "velon-template",
   "private": true,
-  "version": "0.0.0-alpha.7",
+  "version": "0.0.1",
   "license": "apache-2.0",
   "type": "module",
   "scripts": {
@@ -25,7 +25,7 @@
     "pinia": "^2.0.28",
     "rxjs": "^7.8.0",
     "ua-parser-js": "^1.0.32",
-    "velon": "^0.0.0-alpha.7",
+    "velon": "^0.0.1",
     "vite-plugin-top-level-await": "^1.2.2",
     "vue": "^3.2.45",
     "vue-i18n": "^9.2.2",
