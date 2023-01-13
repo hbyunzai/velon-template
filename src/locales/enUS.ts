@@ -24,6 +24,17 @@ export const enUS: LocaleMessages<any> = {
         mine: 'my applications'
       }
     },
+    widget: {
+      message: {
+        title: 'message'
+      },
+      todo: {
+        title: 'todo'
+      },
+      notice: {
+        title: 'notice'
+      }
+    },
     setting: {
       group: {
         styles: 'header style',
@@ -42,5 +53,12 @@ export const enUS: LocaleMessages<any> = {
       },
       logout: 'logout'
     }
+  },
+  notify: {
+    unstart: 'unstart',
+    started: 'started',
+    nostatus: 'nostatus',
+    unread: 'unread',
+    readed: 'readed'
   }
 };

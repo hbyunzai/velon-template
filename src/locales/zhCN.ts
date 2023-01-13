@@ -24,6 +24,17 @@ export const zhCN: LocaleMessages<any> = {
         mine: '我的应用'
       }
     },
+    widget: {
+      message: {
+        title: '消息'
+      },
+      todo: {
+        title: '待办'
+      },
+      notice: {
+        title: '通知'
+      }
+    },
     setting: {
       group: {
         styles: '顶部样式',
@@ -42,5 +53,12 @@ export const zhCN: LocaleMessages<any> = {
       },
       logout: '注销'
     }
+  },
+  notify: {
+    unstart: '未开始',
+    started: '已开始',
+    nostatus: '无状态',
+    unread: '未读',
+    readed: '已读'
   }
 };
